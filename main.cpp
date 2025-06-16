@@ -311,7 +311,7 @@ bool endScreen(int finalScore){
     gotoxy(x - 18, y - 1);
     cout << "╠════════════════════════════════╣";
     gotoxy(x - 18, y + 0);
-    cout << "║  Your Score: " << setw(22) << left << finalScore << "║";
+    cout << "║  Your Score: " << setw(18) << left << finalScore << "║";
     gotoxy(x - 18, y + 1);
     cout << "╠════════════════════════════════╣";
     gotoxy(x - 18, y + 2);
